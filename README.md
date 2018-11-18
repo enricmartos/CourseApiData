@@ -15,6 +15,9 @@ This application is a library management system which allows you to see, edit an
 - Spring Boot
 - Hibernate (as a JPA framework)
 
+*Database*
+- Apache derby
+
 *Dependency management tool*
 - Maven
 
@@ -51,6 +54,6 @@ File -> Import -> Git -> Projects from Git -> Existing local repository -> Add $
 
 ## References
 
-I have accomplished the aforementioned goals thanks to the following courses:
+I have accomplished the aforementioned goals thanks to the following course:
 
 - [Spring Boot Quick Start](https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x)
