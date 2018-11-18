@@ -2,12 +2,13 @@
 
 ## Description
 
-This application is a library management system which allows you to see, edit and delete all book entries. You can add new books as well. Besides, you will receive a Welcome Email after submiting your email on Contact section.
+This REST API application is a course management tool which allows you to see, edit and delete all courses entries. You can add new courses as well. Each course belongs to a specific topic.
 
 ## Personal goals
 
-- Get familiar with Spring Boot framework and learn how to perform basic CRUD operations
-- Implement a simple microservice such as a mail sender by using the Spring Boot Rest API
+- To implementing a REST API using Spring MVC
+- To build the data layer using Spring Data JPA
+- To understanding configuration, deployment and execution of Spring applications
 
 ## Core technologies
 
