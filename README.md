@@ -15,9 +15,6 @@ This application is a library management system which allows you to see, edit an
 - Spring Boot
 - Hibernate (as a JPA framework)
 
-*Database*
-- MySQL
-
 *Dependency management tool*
 - Maven
 
@@ -38,8 +35,8 @@ File -> Import -> Git -> Projects from Git -> Existing local repository -> Add $
 
 - Postman or any other API tester must be already installed in your machine. Otherwise, you will have to install them. You can perform the requests below in order to test the application:
 
-|   | HTTP Request | Endpoint | Body
-| ------------- | ------------- | ------------- |
+|   | HTTP Request | Endpoint | Body |
+| ------------- | ------------- | ------------- | ------------- |
 | Create a new topic  | POST  | /topics/  | {"id": "java", "name": "Java 8", "description": "Java 8 description"} |
 | Read all the topics  | GET  | /topics/ | |
 
