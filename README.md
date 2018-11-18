@@ -37,8 +37,17 @@ File -> Import -> Git -> Projects from Git -> Existing local repository -> Add $
 
 |   | HTTP Request | Endpoint | Body |
 | ------------- | ------------- | ------------- | ------------- |
-| Create a new topic  | POST  | /topics/  | {"id": "java", "name": "Java 8", "description": "Java 8 description"} |
-| Read all the topics  | GET  | /topics/ | |
+| Create new topic  | POST  | /topics/  | {"id": "java", "name": "Java 8", "description": "Java 8 description"} |
+| Read all topics  | GET  | /topics/ | |
+| Update topic  | PUT  | /topics/java | {"id": "java", "name": "Java 11", "description": "Java 11 description"}|
+| Read topic  | GET  | /topics/java | |
+| Create new course  | POST  | /topics/java/courses | {"id": "javaEE", "name": "Java EE", "description": "Java EE description"}|
+| Read all topic courses  | GET  | /topics/java/courses | |
+| Update course  | PUT  | /topics/java/courses/javaEE | {"id": "javaEE", "name": "J2EE", "description": "J2EE description"}|
+| Read topic  | GET  | /topics/java/courses/javaEE | |
+| Delete course  | DELETE  | /topics/java/courses/javaEE | |
+| Delete topic    | DELETE  | /topics/java/ | |
+
 
 ## References
 
