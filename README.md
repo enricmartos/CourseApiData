@@ -48,7 +48,7 @@ File -> Import -> Git -> Projects from Git -> Existing local repository -> Add $
 | Create new course  | POST  | /topics/java/courses | {"id": "javaEE", "name": "Java EE", "description": "Java EE description"}|
 | Read all topic courses  | GET  | /topics/java/courses | |
 | Update course  | PUT  | /topics/java/courses/javaEE | {"id": "javaEE", "name": "J2EE", "description": "J2EE description"}|
-| Read topic  | GET  | /topics/java/courses/javaEE | |
+| Read course  | GET  | /topics/java/courses/javaEE | |
 | Delete course  | DELETE  | /topics/java/courses/javaEE | |
 | Delete topic    | DELETE  | /topics/java/ | |
 
