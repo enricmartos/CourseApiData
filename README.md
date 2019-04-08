@@ -6,9 +6,9 @@ This REST API application is a course management tool which allows you to see, e
 
 ## Personal goals
 
-- To implementing a REST API using Spring MVC
+- To implement a REST API using Spring MVC
 - To build the data layer using Spring Data JPA
-- To understanding configuration, deployment and execution of Spring applications
+- To understand configuration, deployment and execution of Spring applications
 
 ## Core technologies
 
