@@ -39,18 +39,18 @@ File -> Import -> Git -> Projects from Git -> Existing local repository -> Add $
 
 - Postman or any other API tester must be already installed in your machine. Otherwise, you will have to install them. You can perform the requests below in order to test the application:
 
-| Action   | HTTP request method | Endpoint | Body example |
+| Action | HTTP request method | Endpoint | Body example |
 | ------------- | ------------- | ------------- | ------------- |
-| Create new topic  | POST  | /topics/  | {"id": "java", "name": "Java 8", "description": "Java 8 description"} |
-| Read all topics  | GET  | /topics/ | |
-| Update topic  | PUT  | /topics/java | {"id": "java", "name": "Java 11", "description": "Java 11 description"}|
-| Read topic  | GET  | /topics/java | |
-| Create new course  | POST  | /topics/java/courses | {"id": "javaEE", "name": "Java EE", "description": "Java EE description"}|
-| Read all topic courses  | GET  | /topics/java/courses | |
-| Update course  | PUT  | /topics/java/courses/javaEE | {"id": "javaEE", "name": "J2EE", "description": "J2EE description"}|
-| Read course  | GET  | /topics/java/courses/javaEE | |
-| Delete course  | DELETE  | /topics/java/courses/javaEE | |
-| Delete topic    | DELETE  | /topics/java/ | |
+| Create new topic | POST | /topics/  | {"id": "java", "name": "Java 8", "description": "Java 8 description"} |
+| Read all topics | GET | /topics/ | |
+| Read topic | GET | /topics/java | |
+| Update topic | PUT | /topics/java | {"id": "java", "name": "Java 11", "description": "Java 11 description"}|
+| Create new course | POST | /topics/java/courses | {"id": "javaEE", "name": "Java EE", "description": "Java EE description"}|
+| Read all topic courses | GET | /topics/java/courses | |
+| Read course | GET | /topics/java/courses/javaEE | |
+| Update course | PUT | /topics/java/courses/javaEE | {"id": "javaEE", "name": "J2EE", "description": "J2EE description"}|
+| Delete course | DELETE | /topics/java/courses/javaEE | |
+| Delete topic | DELETE | /topics/java/ | |
 
 
 ## References
