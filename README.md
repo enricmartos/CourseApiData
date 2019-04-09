@@ -39,7 +39,7 @@ File -> Import -> Git -> Projects from Git -> Existing local repository -> Add $
 
 - Postman or any other API tester must be already installed in your machine. Otherwise, you will have to install them. You can perform the requests below in order to test the application:
 
-|   | HTTP Request | Endpoint | Body |
+| Action   | HTTP request method | Endpoint | Body example |
 | ------------- | ------------- | ------------- | ------------- |
 | Create new topic  | POST  | /topics/  | {"id": "java", "name": "Java 8", "description": "Java 8 description"} |
 | Read all topics  | GET  | /topics/ | |
